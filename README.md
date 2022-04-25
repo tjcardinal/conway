@@ -13,3 +13,11 @@ Conway's Game of Life implemented in different languages
     2. For each cell to check, include it in the next set only if one of the following is true:
         - There are 3 of its neighbors in the current set (it becomes alive)
         - There are 2 of its neighbors in the current set and it is in the current set (it survives)
+
+# Examples
+
+## Rust
+![rust](rust.png)
+
+## Haskell
+![haskell](haskell.png)
