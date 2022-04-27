@@ -24,6 +24,7 @@ pointsToPicture :: Points -> Picture
 pointsToPicture ps =
   Pictures $ map f (Set.elems ps)
   where
+    -- Makes a pixelSize square and shifts it some number of pixelSize multiple
     f = \(Point x y) -> Translate (pixelSize * fromIntegral x) (pixelSize * fromIntegral y) (rectangleSolid pixelSize pixelSize)
 
 updateModel :: ViewPort -> Float -> Points -> Points
