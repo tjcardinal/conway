@@ -21,3 +21,6 @@ Conway's Game of Life implemented in different languages
 
 ## Haskell
 ![haskell](haskell.png)
+
+## Python
+![python](python.png)
