@@ -17,10 +17,10 @@ Conway's Game of Life implemented in different languages
 # Examples
 
 ## Rust
-![rust](rust.png)
+![rust](rust/rust.png)
 
 ## Haskell
-![haskell](haskell.png)
+![haskell](haskell/haskell.png)
 
 ## Python
-![python](python.png)
+![python](python/python.png)
